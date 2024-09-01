@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffffe7;
+}
+
+header {
+    background: #333;
+    color: #fffffff6;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    border-radius: 12px 12px 12px 12px;
+    margin: 4rem auto;
+    background: #222121;
+    box-shadow: 0 0 20px rgba(255, 54, 81, 0.527);
+}
+
+h1, h2 {
+    color: #fdf9f9;
+}
+
+p {
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.team-member {
+    background: #f9f9f9;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 5px solid #333;
+}
+
+.team-member h3 {
+    margin: 0 0 0.5rem;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+/* Main */
+main {
+    padding: 20px 0;
+}
+
+main h2 {
+    color: #d4d4d4;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+.team-member {
+    background: #080744;
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 5px solid #8b94ebd0;
+    box-shadow: 0 0 8px #ff0062;
+    
+}
+
+.team-member h3 {
+    margin-top: 0;
+}
+
+/* Contact Form */
+form {
+    background: #3b3636;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #77aaff;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #77aaff;
+}

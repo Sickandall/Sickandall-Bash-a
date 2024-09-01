@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash-a</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.3/build/spline-viewer.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Black Ops One', sans-serif;
+            box-sizing: border-box;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .hero {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            overflow: hidden;
+            color: #fff;
+        }
+        .hero .btn3 {
+            color: white;
+            margin-top: 255%;
+            margin-left: 310%;
+            padding: 20px 92px;
+            border-radius: 50px;
+            border: none;
+            background: rgb(0, 0, 0);
+            transition: 0.4s;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h {
+            font-size: 1.3rem;
+            color: #fff;
+        }
+
+        #focus {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            z-index: 1;
+            background: url('sav.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            border-collapse: unset;
+            filter: blur(10%);
+            animation: fadeBorder 9s infinite;
+        }
+
+        @keyframes fadeBorder {
+            0% {
+                box-shadow: 0 0 0 0 rgba(17, 21, 255, 0.658);
+            }
+            50% {
+                box-shadow: 0 0 30px 15px rgba(34, 38, 255, 0.473);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(29, 202, 255, 0.5);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background: rgb(0, 0, 0);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Black Ops One', sans-serif;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform: scale(1);
+            z-index: -1;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            height: 20vh; /* Adjust the height as per your requirement */
+            width: auto;
+            margin-top: -280px;
+            margin-left: -160px;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 40px;
+            margin-left: auto;
+            margin-right: 60px;
+        }
+
+        .menu li {
+            font-size: 1rem;
+            
+        }
+
+        .menu li:hover {
+            transform: scale(1.6);
+            background: linear-gradient(45deg, #000dff, #ff00e6, #ff7700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .btn1 {
+            color: white;
+            padding: 10px 25px;
+            border-radius: 18px;
+            border: none;
+            background: linear-gradient(45deg, #000dff, #ff00e6, #ff7700);
+           
+        }
+
+        .btn1 h1 {
+            color: #fff;
+            font-family: 'Black Ops One', sans-serif;
+            padding: 0;
+        }
+
+        .btn1:hover {
+            transform: scale(1.2);
+        }
+
+        .mainarea {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            flex-direction: column;
+        }
+
+        .text1 {
+            margin-top: -25px;
+            font-size: 1.8rem;
+            background: linear-gradient(45deg, #000dff, #ff00e6, #ff7700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            z-index: -2;
+        }
+
+    </style>
+</head>
+<body>
+    <spline-viewer class="background" url="https://prod.spline.design/vNjop7XYPdhAhJpo/scene.splinecode"></spline-viewer>
+    <nav class="navbar">
+        <div class="logo"><img src="bash.png" alt="logo"></div>
+        <ul class="menu">
+            <li><a href="file:///C:/Users/sonuk/OneDrive/Desktop/Bash-a/About/index.html">About</a></li>
+            <li><a href="file:///C:/Users/sonuk/OneDrive/Desktop/Bash-a/community/index.html">Community</a></li>
+            <li><a href="file:///C:/Users/sonuk/OneDrive/Desktop/Bash-a/features/index.html">Features</a></li>
+            <li><a href="file:///C:/Users/sonuk/OneDrive/Desktop/Bash-a/support/index.html">Support</a></li>
+        </ul>
+        <button class="btn1"><a href="file:///C:/Users/sonuk/OneDrive/Desktop/Bash-a/login%20page/index.html"><h1>Login/Signup</h1></a></button>
+    </nav>
+    <main class="mainarea">
+    </main>
+    <div class="hero">
+        <div id="focus"></div>
+        <div><button class="btn3"></button></div>
+    </div>
+    <script>
+        let focus = document.getElementById("focus");
+        let focusHalfWidth = focus.offsetWidth / 2;
+        let focusHalfHeight = focus.offsetHeight / 2;
+
+        document.onmousemove = function (e) {
+            focus.style.left = (e.pageX - focusHalfWidth) + "px";
+            focus.style.top = (e.pageY - focusHalfHeight) + "px";
+        }
+    </script>
+</body>
+</html>

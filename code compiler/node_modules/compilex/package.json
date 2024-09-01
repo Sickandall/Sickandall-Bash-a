@@ -1,0 +1,38 @@
+{
+  "name": "compilex",
+  "version": "0.7.4",
+  "description": "compilex is a node.js library which is used to build online code editor/compiler websites and webservices.",
+  "main": "compilex.js",
+  "dependencies": {
+    "cuid": "~1.2.4",
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scriptnull/compilex.git"
+  },
+  "keywords": [
+    "compiler",
+    "compilex",
+    "c",
+    "c++",
+    "java",
+    "python",
+    "c#",
+    "vb",
+    "gcc",
+    "javac",
+    "csc",
+    "vbc"
+  ],
+  "author": "Vishnu Bharathi <vishnubharathi04@gmail.com> (https://twitter.com/scriptnull)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptnull/compilex/issues"
+  },
+  "homepage": "https://github.com/scriptnull/compilex"
+}
