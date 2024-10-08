@@ -32,13 +32,10 @@ Graphics:- spline, canva
 
 Here is our Android/Ios App of BASH-A
 
-![Screenshot 2024-10-08 200219a](https://github.com/user-attachments/assets/4c58aa2f-b5d8-423c-a1b3-83618dc04d30)
-![Screenshot 2024-10-08 200239](https://github.com/user-attachments/assets/657b6e4e-a1e9-41cb-a4f2-211b264bc4eb)
-![Screenshot 2024-10-08 200255](https://github.com/user-attachments/assets/d82a56b8-dff9-42d8-82fa-bcbb7a032b7e)
-![Screenshot 2024-10-08 200327](https://github.com/user-attachments/assets/d9c3c88b-47c0-41fc-9b5f-3c71641afec6)
-![Screenshot 2024-10-08 200343](https://github.com/user-attachments/assets/a022050d-e472-4296-b19f-267fe563b2db)
-![Screenshot 2024-10-08 200358](https://github.com/user-attachments/assets/850d0d1f-f797-4237-92f7-ad467c27b160)
-![Screenshot 2024-10-08 200413](https://github.com/user-attachments/assets/2deb3db4-c2e7-4de3-ae02-74c319ded716)
+![image (4)](https://github.com/user-attachments/assets/0d842051-e982-487e-a10b-f13d427022ab)
+![image](https://github.com/user-attachments/assets/5c04d5f3-6ce0-424f-ad04-9e3fdbf1f37c)
+![image (1)](https://github.com/user-attachments/assets/29ebca4c-0175-4d5c-ac83-80c634810e3b)
+![image (2)](https://github.com/user-attachments/assets/f7fbd8c5-5710-4815-b848-c84341bd6f57)
 
 
 ## Lessons Learned
