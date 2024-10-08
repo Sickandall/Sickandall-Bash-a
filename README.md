@@ -32,7 +32,7 @@ Graphics:- spline, canva
 
 Here is our Android/Ios App of BASH-A
 
-![Screenshot 2024-10-08 200219](https://github.com/user-attachments/assets/72dfa568-9acd-4b9a-aba4-71f9bb8089da)
+![Screenshot 2024-10-08 200219a](https://github.com/user-attachments/assets/4c58aa2f-b5d8-423c-a1b3-83618dc04d30)
 ![Screenshot 2024-10-08 200239](https://github.com/user-attachments/assets/657b6e4e-a1e9-41cb-a4f2-211b264bc4eb)
 ![Screenshot 2024-10-08 200255](https://github.com/user-attachments/assets/d82a56b8-dff9-42d8-82fa-bcbb7a032b7e)
 ![Screenshot 2024-10-08 200327](https://github.com/user-attachments/assets/d9c3c88b-47c0-41fc-9b5f-3c71641afec6)
